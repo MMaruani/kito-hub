@@ -1,5 +1,24 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 80px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .App-logo {
@@ -8,6 +27,7 @@
 }
 
 .App-header {
+  position: relative;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -16,6 +36,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
 }
 
 .App-link {
