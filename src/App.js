@@ -13,7 +13,8 @@ class App extends Component {
         <header className="App-header">
           <h2>
             {" "}
-            Images de KAIROUAN - TATAOUINE - CHENINI - SABRIA .&nbsp;.&nbsp;.
+            Photos prises lors d'un premier repérage - KAIROUAN - TATAOUINE
+            .&nbsp;.&nbsp;.
           </h2>
           <span class="arrow-down">↓</span>
         </header>
